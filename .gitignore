@@ -1,6 +1,39 @@
-.env
-*.env
-bot/.env
+# Node modules
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
 dist/
+build/
+.cache/
+.tmp/
+
+# Environment files
+.env
+.env.*
+bot/.env
+bot/.env.*
+*/.env
+*/.env.*
+
+# OS junk files
 .DS_Store
+Thumbs.db
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Budibase export files (opsional, kalau mau exclude)
+budibase/*.bbapp
+
+# Python cache (kalau nanti ada script Python)
+__pycache__/
+*.pyc
